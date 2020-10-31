@@ -10,8 +10,8 @@ export const globals: {
 } = {
     twitchClient: null,
     identity: {
-        username: 'chatbot_user',
-        password: 'your_oauth',
+        username: <BOT_NAME>,
+        password: <YOUR_OAUTH>,
       },
-    channels: ['channel'],
+    channels: [<YOUR_CHANNEL>],
 }
