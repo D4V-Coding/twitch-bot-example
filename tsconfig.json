@@ -1,0 +1,22 @@
+﻿{
+    "include": [
+      "./scripts/**/*",
+      "./node_modules/@types/**/*.d.ts"
+    ],
+    "exclude": [
+      "node_modules",
+      "**/*.spec.ts"
+    ],
+    "noImplicitAny": false,
+    "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "target": "ES5",
+      "module": "es2015",
+      "moduleResolution": "node",
+      "declaration": false,
+      "sourceMap": true,
+      "strict": true,
+      "esModuleInterop": true,
+      "outDir": "./dist"
+    }
+}
